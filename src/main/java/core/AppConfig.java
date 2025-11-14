@@ -32,7 +32,7 @@ public class AppConfig {
 
     @Bean
     public DiscountPolicy discountPolicy(){
-        //return new FixDiscountPolicy();
+        //return new FixDiscountPolicy();   // 할인 정책 변경 시 AppConfig의 이 부분만 수정하면 된다.
         return new RateDiscountPolicy();
     }
 }

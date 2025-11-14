@@ -1,11 +1,11 @@
-package core.discount;
+package core.order;
 
+import core.discount.RateDiscountPolicy;
 import core.member.Grade;
 import core.member.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class RateDiscountPolicyTest {
 
