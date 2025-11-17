@@ -1,4 +1,4 @@
-package core.order;
+package hello.core.order;
 
 public interface OrderService {
 

@@ -1,8 +1,8 @@
 package core.order;
 
-import core.discount.RateDiscountPolicy;
-import core.member.Grade;
-import core.member.Member;
+import hello.core.discount.RateDiscountPolicy;
+import hello.core.member.Grade;
+import hello.core.member.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;

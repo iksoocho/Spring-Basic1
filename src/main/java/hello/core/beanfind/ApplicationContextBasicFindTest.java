@@ -1,8 +1,8 @@
-package core.beanfind;
+package hello.core.beanfind;
 
-import core.AppConfig;
-import core.member.MemberService;
-import core.member.MemberServiceImpl;
+import hello.core.AppConfig;
+import hello.core.member.MemberService;
+import hello.core.member.MemberServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

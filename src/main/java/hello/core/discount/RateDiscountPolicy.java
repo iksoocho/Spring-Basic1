@@ -1,7 +1,7 @@
-package core.discount;
+package hello.core.discount;
 
-import core.member.Grade;
-import core.member.Member;
+import hello.core.member.Grade;
+import hello.core.member.Member;
 
 public class RateDiscountPolicy implements DiscountPolicy{
 
