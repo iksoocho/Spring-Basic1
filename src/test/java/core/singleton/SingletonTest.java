@@ -24,8 +24,8 @@ public class SingletonTest {
         MemberService memberService2 = appConifg.memberService();
 
         // 참조값이 다른 것을 확인
-        System.out.println("memberService1 = " + memberService1);
-        System.out.println("memberService2 = " + memberService2);
+        System.out.println("memberService1 = " + memberService1);   // hello.core.member.MemberServiceImpl@1e730495
+        System.out.println("memberService2 = " + memberService2);   // hello.core.member.MemberServiceImpl@7d3a22a9
 
         // memberService1 != memberService2
         assertThat(memberService1).isNotSameAs(memberService2);
