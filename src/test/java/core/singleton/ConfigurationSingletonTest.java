@@ -26,7 +26,7 @@ public class ConfigurationSingletonTest {
         System.out.println("orderService -> memberRepository = " + orderService.getMemberRepository());
         System.out.println("memberRepository = " + memberRepository);
 
-        // 모두 같은 인스턴스를 참고하고 있다.
+        // 모두 같은 인스턴스를 참고하고 있다. test
         assertThat(memberService.getMemberRepository()).isSameAs(memberRepository);
         assertThat(orderService.getMemberRepository()).isSameAs(memberRepository);
 
